@@ -16,16 +16,15 @@ class Navbarr extends Component {
   <Navbar.Collapse>
     <Nav>
       <NavItem eventKey={1} href="/stack">
-        Stack
+      <i class="material-icons">code</i>
       </NavItem>
-      <NavItem eventKey={2} href="/">
-        Projects
-      </NavItem>
+    
      
     </Nav>
     <Nav pullRight>
       <NavItem eventKey={1} href="https://github.com/FidelBG">
-        GitHub
+    GitHub
+        
       </NavItem>
    
     </Nav>

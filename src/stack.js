@@ -11,11 +11,12 @@ function Stack(props) {
   return (
 <div>   
 <Grid>  
-    <Panel bsStyle="primary">
+    <Panel >
     <Panel.Heading>
-      <Panel.Title componentClass="h3">Stack</Panel.Title>
+      <Panel.Title componentClass="h3">MERN STACK CRUD</Panel.Title>
     </Panel.Heading>
-    <Panel.Body>This is the stack I work </Panel.Body>
+    <Panel.Body> Mern Stack CRUD is a simple CRUD app built with MongoDB,Express,React,Nodejs and deployed in Heroku</Panel.Body>
+    <Panel.Body><Button bsStyle="link"href="https://github.com/FidelBG/Mern-CRUD">View code in Github</Button>        <Button bsStyle="primary" href= "https://fierce-garden-50372.herokuapp.com/">Live App</Button> </Panel.Body>
   </Panel>
   </Grid>  
 <Grid>
@@ -24,44 +25,28 @@ function Stack(props) {
       <Thumbnail src="https://redash.io/assets/images/integrations/mongodb.png" alt="242x200">
         <h3>Mongo DB</h3>
         <p>NoSQL database</p>
-        <p>
-          <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
-        </p>
+
       </Thumbnail>
     </Col>
     <Col sm={6} md={3}>
       <Thumbnail src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1489710851/express-js.png" alt="242x200">
         <h3>Express</h3>
         <p>Nodejs framework</p>
-        <p>
-          <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
-        </p>
+
       </Thumbnail>
     </Col>
     <Col sm={6} md={3}>
       <Thumbnail src="http://www.jsweet.org/wp-content/uploads/2016/04/react-logo-300x289.png" alt="242x200">
         <h3>Reactjs</h3>
         <p>Javascript framework</p>
-        <p>
-          <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
-        </p>
+      
       </Thumbnail>
     </Col>
     <Col sm={6} md={3}>
       <Thumbnail src="https://nodejs.org/static/images/logo.svg" alt="242x200">
         <h3>Nodejs</h3>
         <p>Node.js es un entorno de ejecución para JavaScript</p>
-        <p>
-          <Button bsStyle="primary">Button</Button>
-          &nbsp;
-          <Button bsStyle="default">Button</Button>
-        </p>
+      
       </Thumbnail>
     </Col>
   </Row>

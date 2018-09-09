@@ -20,10 +20,6 @@ class App extends Component {
   <Router>
   <Switch>
     <Route exact path="/" component={Jumbotronn} />
-    
-  
-  
- 
     <Route exact path="/stack" component={Stack} />
   
   </Switch>

@@ -11,7 +11,10 @@ class Jumbotronn extends Component {
     This is Fidel Bernal , I´m working hard to become a nomad web developer.
   </p>
   <p>
-    <Button bsStyle="primary">Learn more</Button>
+    
+  </p>
+  <p>
+    <Button bsStyle="primary" href="/stack">MY WORK</Button>
   </p>
 </Jumbotron>
       );
